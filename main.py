@@ -5,12 +5,15 @@ an unimportant meeting.
 """
 
 
+LINE = (
+    "The meeting has no agenda, no decision, and a 100% chance of "
+    "ending with another meeting. I am skipping it to do the work "
+    "it was called to discuss."
+)
+
+
 def main() -> str:
-    return (
-        "The meeting has no agenda, no decision, and a 100% chance of "
-        "ending with another meeting. I am skipping it to do the work "
-        "it was called to discuss."
-    )
+    return LINE
 
 
 if __name__ == "__main__":
